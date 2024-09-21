@@ -286,10 +286,6 @@ environment.systemPackages = with pkgs; [
       enable = true;
       useRoutingFeatures = "client";
     };
-    ollama = {
-      enable=true;
-      acceleration = "cuda";
-    };
     libinput.enable = true;
     fstrim.enable = true;
     gvfs.enable = true;
