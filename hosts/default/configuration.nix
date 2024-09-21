@@ -26,11 +26,10 @@ in
     loader = {
       efi = {
         canTouchEfiVariables = true;
-        efiSysMountPoint = "/boot";
       };
       grub = {
         enable = true;
-        device = "nodev";
+        device = "/dev/nvme0n1";
         efiSupport = true;
         useOSProber = true;
       };
