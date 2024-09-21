@@ -154,7 +154,6 @@ in
     mutableUsers = true;
     users.${username} = {
       isNormalUser = true;
-      description = userDescription;
       extraGroups = [ "networkmanager" "wheel" ];
       packages = with pkgs; [
         firefox
