@@ -202,7 +202,7 @@ environment.systemPackages = with pkgs; [
   firefox google-chrome
 
   # Gaming and entertainment
-  stremio
+  steam stremio
 
   # System utilities
   libgcc bc kdePackages.dolphin lxqt.lxqt-policykit libnotify v4l-utils ydotool
@@ -388,6 +388,7 @@ environment.systemPackages = with pkgs; [
   };
 
   programs.hyprland.enable = true;
+  programs.steam.enable = true;
 
   home-manager = {
     extraSpecialArgs = { inherit inputs; };
