@@ -24,14 +24,10 @@ in
       "vm.max_map_count" = 2147483642;
     };
     loader = {
-      efi = {
-        canTouchEfiVariables = true;
-        efiSysMountPoint = "/dev/nvme0n1";
-      };
       grub = {
         enable = true;
         device = "/dev/nvme0n1";
-        efiSupport = true;
+        efiSupport = false;
         useOSProber = true;
       };
     };
