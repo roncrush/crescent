@@ -26,6 +26,7 @@ in
     loader = {
       efi = {
         canTouchEfiVariables = true;
+        efiSysMountPoint = "/dev/nvme0n1";
       };
       grub = {
         enable = true;
