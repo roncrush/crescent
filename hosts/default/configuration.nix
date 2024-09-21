@@ -4,7 +4,7 @@ let
   username = "roncrush";
   homeDirectory = "/home/${username}";
   hostName = "crescent";
-  timeZone = "Asia/Kolkata";
+  timeZone = "America/New_York";
 in
 {
   imports =
